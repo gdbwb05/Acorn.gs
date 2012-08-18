@@ -24,52 +24,65 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
         <meta name="language" content="english">
         <meta name="distribution" content="global">
         <!-- Mobile viewport optimized: h5bp.com/viewport -->
-        
-        
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
-         <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiaWsbynens.be/notes/touch-icons---->
 
-         
-        <link type="image/x-icon" rel="shortcut icon" href="/Basic/public/assets/files/img/global/favicon.ico" > 
-        
+
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiaWsbynens.be/notes/touch-icons---->
+
+
+        <link type="image/x-icon" rel="shortcut icon" href="public/assets/files/img/global/favicon.ico" > 
+
         <!-- This adds google CDN fonts to the site -- change name then make corrections in the style sheet 
         https://developers.google.com/webfonts/docs/getting_started
         ---->
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans|Philosopher">
-         
-       <!-- Keep styles in the current order so that it is responsive
-        
-        <link rel="stylesheet" href="public/src/css/reset.css">
-        <link rel="stylesheet" href="public/src/css/ie.css"> ---->
-         
-        <link rel="stylesheet" href="/Basic/public/assets/css/responsive_24/responsive-gs-24col.css">
-        <link rel="stylesheet" href="/Basic/public/assets/css/responsive_24/media-queries.css" media="screen">
-        <link rel="stylesheet" href="/Basic/public/assets/css/responsive_24/style.css"> 
-        
-       
-        
-        
-        <!-- Media Queries --
-	<link  rel="stylesheet" href="public/src/css/mobile-nav.css" media="screen and (min-width: 320px) and (max-width: 1024px)">
-	<link  rel="stylesheet" href="public/src/css/smartphone.css" media="screen and (min-width:320px) and (max-width:480px)">
-	<link  rel="stylesheet" href="public/src/css/tablet.css" media="screen and (min-width: 481px) and (max-width: 767px)">
-	<link  rel="stylesheet" href="public/src/css/ipad.css" media="screen and (min-width: 768px) and (max-width: 1024px)">
-	<link  rel="stylesheet" href="public/src/css/desktop.css" media="screen and (min-width: 1025px)">   -->
 
-	
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" href="css/desktop.css" media="screen">
-	<![endif]-->
-        
+        <!-- Keep styles in the current order so that it is responsive
+         
+         <link rel="stylesheet" href="public/src/css/reset.css">
+         <link rel="stylesheet" href="public/src/css/ie.css"> ---->
+
+        <link rel="stylesheet" href="public/assets/css/acorn_base/reset.css">
+        <link rel="stylesheet" href="public/assets/css/acorn_base/responsive.css">
+        <link rel="stylesheet" href="public/assets/css/acorn_base/media-queries.css" media="screen">
+
+
+        <link rel="stylesheet" href="public/assets/css/site/style.css"> 
+        <link rel="stylesheet" href="public/assets/css/site/nav.css"> 
+        <link rel="stylesheet" href="public/assets/css/site/skeleton.css">
+        <link rel="stylesheet" href="public/assets/css/site/color.css"> 
+        <!-- START -- Other applications style sheets -->
+        <link rel="stylesheet" href="public/assets/css/flexslider/flexslider.css" media="screen" />
+        <!-- END -- Other applications style sheets -->
+
+
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/desktop.css" media="screen">
+        <![endif]-->
+
         <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
         <!-- All JavaScript at the bottom, except this Modernizr build.
              Modernizr enables HTML5 elements & feature detects for optimal performance.
              Create your own custom Modernizr build: www.modernizr.com/download/ -->
-        <script src="/Basic/vendor/libs/js/j.modernizer/modernizr.min.js"></script>
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="resources/libs/jquery/jquery-1.7.1.min.js"><\/script>')</script>
+
+        <script src="vendor/libs/js/j.modernizer/modernizr.min.js"></script>
+
+        <!-- This grabs the Jquery UI -->
+        <!--        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
+        <script src="vendor/libs/js/jqueryui/jqueryui.min.js"></script>
+
+        <!-- this will load google maps -->
+        <script src="vendor/libs/js/googlemaps/googlemaps.js"></script>
+
     </head>
-    <body>
-        <!-- START -- CONTENT WRAPPER -->  
+    <body >
+
+
+        <!--  START -- container wrapper - div -->
         <div class="container">
 
             <!-- START -- HEADER 
@@ -79,7 +92,7 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
             <header class="row clearfix ladder_3" >
                 <section class="logo clearfix ladder_4 alpha" itemtype="http://schema.org/Organization" itemscope="">
                     <span class="logo_wrap">
-                        <img alt="droco roofing" title="droco roofing"  src="/Basic/public/assets/files/img/global/logo/logo.svg" itemprop="image" role="img">
+                        <img alt="droco roofing" title="droco roofing"  src="public/assets/files/img/global/logo/logo.svg" itemprop="image" role="img">
                     </span>
                 </section> 
                 <nav class="menu-main row clearfix ladder_2" >
@@ -98,11 +111,10 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
                         </li>
                     </ul>
                 </nav>
-                <section id="slide" class="row clearfix" role="region" >
-                    SLIDE
-                </section>
+                
+
             </header>
-            <!-- END -- HEADER -->  
+            <!-- END -- HEADER --> 
             <!-- START -- MAIN-CONTENT -->  
             <div class="main-content row clearfix ladder_3" role="main">
 

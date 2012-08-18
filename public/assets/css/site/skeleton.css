@@ -1,0 +1,154 @@
+/* 
+    Document   : skeleton
+    Created on : Aug 7, 2012, 12:21:27 PM
+    Author     : Brad Bailosky
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#header{
+    border-top:3px #555555 solid;
+}
+
+header{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+
+#slider{
+    position: absolute;
+    top: 0;
+     border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.pg-index #main{
+    margin-top: 385px; 
+    clear: both;
+    position: relative;
+/*    background-image: url('/grey_basic/public/assets/files/img/global/back/sqlines.png');
+    background-position: top left;
+    background-repeat: repeat;*/
+}
+
+
+#content-maincontent-1 article{
+    /* box-shadow: 0px 2px 5px 0px #ffffff inset ;
+    -moz-box-shadow: 0px 2px 5px 0px #ffffff inset ;
+    -webkit-box-shadow: 0px 2px 5px 0px #ffffff inset ;*/
+}
+
+#content-maincontent-1 article{
+    background:#333333; 
+     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#555555)); 
+     /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #333333, #555555); 
+     /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #333333, #555555); 
+     /* IE 10 */ background: -ms-linear-gradient(top, #333333, #555555); 
+     /* Opera 11.10+ */ background: -o-linear-gradient(top, #333333, #555555); 
+    vertical-align: top;
+    color: #ffffff;
+/*    border: 5px solid rgba(255, 255, 255, .75);
+    border-bottom: 5px solid rgba(255, 255, 255, 1);
+    -webkit-background-clip: padding-box;  for Safari 
+    background-clip: padding-box;  for IE9+, Firefox 4+, Opera, Chrome */
+    margin: 0 auto 0 auto;
+    height: auto;
+    width: 95%;
+    padding:1%;
+    overflow: hidden;
+    display: block;
+
+}
+
+#content-maincontent-1 article h1{
+    background:#7AC143; 
+    vertical-align: top;
+    color: #ffffff;
+    text-align: center;
+    font-size:xx-large;
+}
+#content-maincontent-1 article p{
+    font-size: 23px;
+}
+
+
+
+
+
+#content-maincontent-2 article{
+    background:#ffffff; 
+   
+/*    border: 5px solid rgba(255, 255, 255, .75);
+    border-bottom: 5px solid rgba(255, 255, 255, 1);
+    -webkit-background-clip: padding-box;  for Safari 
+    background-clip: padding-box;  for IE9+, Firefox 4+, Opera, Chrome */
+   
+    
+
+}
+
+#content-maincontent-2 article h1{
+    background:#7AC143; 
+    vertical-align: top;
+    color: #ffffff;
+    text-align: center;
+  
+}
+#content-maincontent-2 article p{
+    
+}
+
+#address, #map{
+  background-color: #333333;
+  margin-bottom:0;
+}
+#map{
+  margin-top:1%;
+  height: auto;
+  overflow: hidden;
+}
+#map_canvas{
+height: 100%; 
+min-height: 250px;
+max-height: 350px;
+background-color: #ffffff;
+overflow: hidden;
+}
+
+#footer-bottom p{
+   vertical-align: top;
+   clear: both;
+   padding: 0; margin: 0;
+}
+#footer-bottom .click{
+   font-size: .7em;
+   color: #7AC143;
+     margin-left:auto;
+  margin-right:auto;
+  width: auto;
+  color: #7AC143;
+   border: 1px solid #7AC143;
+
+text-decoration: none;
+}
+
+#close{
+  margin-left:0;
+  margin-bottom: 1%;
+  font-size: .9em;
+   color: #7AC143;
+   border: 1px solid #7AC143;
+clear: both;
+float: left;
+text-decoration: none;
+}
+
+#close:hover, #footer-bottom .click:hover{
+   color: #ffffff;
+   border: 1px solid #ffffff;
+}

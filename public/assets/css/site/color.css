@@ -1,0 +1,105 @@
+/* START -- BACKGROUND GRADIENTS
+
+http://css-tricks.com/examples/CSS3Gradient/
+
+*/
+html, body{ }
+
+
+.row{
+
+}
+
+
+
+/* // light blue to white*/
+ .grad_1{ /* fallback */ 
+     /* fallback */ 
+     background-color: #E6EBF1;
+     /* background: url(images/linear_bg_2.png); 
+     background-repeat: repeat-x; */
+     /* Safari 4-5, Chrome 1-9 */ 
+     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( 0.25, #555555), color-stop(0.50,  #ffffff), to( 0.25,#ffffff)); 
+     /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #555555, #eeeeee, #ffffff); 
+     /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #555555, #eeeeee, #ffffff); 
+     /* IE 10 */ background: -ms-linear-gradient(top, #555555, #eeeeee, #ffffff); 
+     /* Opera 11.10+ */ background: -o-linear-gradient(top, #555555, #eeeeee, #ffffff); }
+ 
+
+ 
+ /* // 3 colors light green to dark green*/
+ .grad_2{ 
+      background-color: #AED477;
+     /* background: url(images/linear_bg_2.png); 
+     background-repeat: repeat-x; */
+     /* Safari 4-5, Chrome 1-9 */ 
+     background: -webkit-gradient(linear,top,top,top, from(0.25,#AED477), color-stop(0.50,  #8DC63F), to(0.25,#78a43e)); 
+     /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #AED477,#8DC63F, #78a43e); 
+     /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #AED477,#8DC63F, #78a43e); 
+     /* IE 10 */ background: -ms-linear-gradient(top, #AED477,#8DC63F, #78a43e); 
+     /* Opera 11.10+ */ background: -o-linear-gradient(top, #AED477,#8DC63F, #78a43e); }
+ 
+  /* // 3 colors light blue to dark blue*/
+ .grad_3{ 
+      background-color: #63819D;
+     /* background: url(images/linear_bg_2.png); 
+     background-repeat: repeat-x; */
+     /* Safari 4-5, Chrome 1-9 */ 
+      background: -webkit-gradient(linear,top,top, from(0.25,#617f9b),  to(0.75,#63819D)); 
+       /* Safari 5.1, Chrome 10+ */ background:  -webkit-linear-gradient(top, #617f9b,#63819D); 
+      /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #617f9b,#63819D); 
+      /* IE 10 */ background: -ms-linear-gradient(top, #617f9b,#63819D); 
+      /* Opera 11.10+ */ background: -o-linear-gradient(top, #617f9b,#63819D); 
+     }
+     
+  /* // 3 colors light green to dark green*/
+ .grad_4{ 
+      background-color: #333333;
+     /* background: url(images/linear_bg_2.png); 
+     background-repeat: repeat-x; */
+     /* Safari 4-5, Chrome 1-9 */ 
+     background: -webkit-gradient(linear,top,top, from(0.25,#444444), to(0.25, #333333)); 
+     /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #444444, #333333); 
+     /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #444444, #333333); 
+     /* IE 10 */ background: -ms-linear-gradient(top, #444444, #333333); 
+     /* Opera 11.10+ */ background: -o-linear-gradient(top, #444444, #333333); }   
+     
+
+/* START -- BACKGROUND GRADIENTS*/
+
+
+
+
+#content-maincontent-2{
+/*    border-top:5px dotted #333333;
+    border-bottom:5px dotted #333333;*/
+}
+
+#maincontent{
+    
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+#content-footer-top{
+    background: #7AC142
+    
+    
+}
+
+#footer{
+    background: #aaaaaa;
+}
+#footer-middle{
+   background:url('/grey_basic/public/assets/files/img/global/back/45degree.png');
+background-repeat:repeat;
+background-position:left top;
+background-color: #777777;
+}
+
+
+#content-footer-bottom{
+    background: #777777;
+    color: #ffffff;
+}

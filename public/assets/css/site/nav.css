@@ -1,0 +1,207 @@
+/* 
+    Document   : nav
+    Created on : Aug 6, 2012, 2:01:53 PM
+    Author     : Brad Bailosky
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+nav { 
+    /*  background: url("../images/nav-tail.gif") repeat-x scroll center top #FAFAFA;
+        box-shadow: 1px 1px 3px #EDEDED;
+    */
+    width:auto; height:auto; overflow: hidden; 
+}
+
+.menu_inline, .menu_inline ul, .list{
+    margin: 0;
+    display:block; overflow: hidden;
+    height: 100%;
+    width: auto;
+}
+
+
+
+.menu_inline li, .menu_inline ul li{
+    border: none;
+    list-style: none;
+    display:inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: auto;
+
+}
+
+/*// fade -- in with css
+http://www.w3schools.com/css3/css3_transitions.asp
+http://bavotasan.com/2011/a-simple-fade-with-css3/*/
+
+ .menu_inline ul li a{
+    padding: 2px 5px 2px 5px;
+    width: auto;
+    height:100%;
+    margin: 0;
+    margin-right: 5px;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+    border-radius: 10px 10px 10px 10px; 
+    color: #ffffff;
+}
+
+
+
+.menu_inline li a:hover{
+    background-color: #cccccc;
+}
+.menu_inline li a:focus, .menu ul li a:active,.menu ul li a:after , .menu ul li a:link{
+    border-width:0px;
+}
+
+/*start -- breadcrumb -- */
+
+#breadcrumb{
+    text-align: left;
+}
+#breadcrumb nav{
+    width:auto; height:auto; margin: 0;  padding: 0; overflow: hidden; 
+}
+
+#breadcrumb nav a{
+    float: left;
+    width: auto;
+    text-align: left;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #dddddd;
+}
+
+/*end -- breadcrumb -- */
+
+/*// START -- specific menu styles*/
+/*// START -- PRIMARY --  menu styles*/
+#menu-primary{
+  background-color: #333333;
+}
+#menu-primary.menu ul {
+ 
+}
+
+#menu-primary.menu ul li.last{
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-right: 0;
+    border-right: none;
+    float: left;
+    overflow: hidden;
+}
+
+#menu-primary.menu ul li a{
+    background: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px 3px 3px 3px; 
+    font-size: 1.1em;
+    color: #222222;
+    font-weight: 100;
+    font-family:Ultra;
+
+}
+
+#menu-primary.menu ul li a:hover{
+    color: #ffffff;
+/*    background: #0B4361;*/
+     background: #333333;
+    opacity: 0.9;
+}
+/*// STOP -- PRIMARY -- menu styles*/
+
+/*-- START -- LIST STYLES -- */
+.list{
+    background: #bbbbbb;
+}
+
+.list-list{
+    
+    
+}
+
+
+/*START --- view lists -- inline ---*/
+.list-inline .content{
+     
+}
+
+.list-inline .content .view{
+     clear: both;
+     width: 100%;
+     background: #cccccc;
+     height: auto;
+}
+
+.view-content{
+  float: left;
+     width: 100%;
+     background: #eeeeee;
+     height: auto;
+     padding:0;
+     margin: 0;
+}
+
+
+/*/// list-inline -- for group glossary*/
+
+.view, .block-views{
+   float: left; width: 100%; height: auto; padding: 0; 
+}
+
+
+
+.block-views .attachment{
+    float: left; width: 100%; background: #666666; height: auto; padding: 0%; margin: 0%;  margin-bottom: 1%;
+}
+
+.block-views .attachment .views-summary, .list-inline .views-summary,.list-inline .list-item
+{
+    float: left; width: auto; background: #666666; height: auto; padding: 1%; margin: .25%;  margin-bottom: 1%; 
+}
+
+/*/// list-inline -- for group glossary*/
+
+/*END --- view lists ---*/
+
+/*START --- view lists -- listed ---*/
+.list-list .content{
+     
+}
+
+.list-list .content .view{
+     clear: both;
+     width: 100%;
+     background: #cccccc;
+     height: auto;
+}
+
+ul.list-list{
+    
+}
+ul.list-list .list-item, .list-item-odd, .list-item-even, .list-list .first, .list-list .last{
+    float: left;
+     width: 98%;
+     background: #555555;
+     height: auto;
+     padding: 1%;
+     margin-bottom: 1%;
+}
+ul.list-list .list-content{
+    
+    
+}
+
+/*END --- view lists ---*/
+
+/*-- END -- LIST STYLES -- */

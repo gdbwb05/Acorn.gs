@@ -45,9 +45,9 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
         <link rel="stylesheet" href="public/assets/css/acorn_base/reset.css">
         <link rel="stylesheet" href="public/assets/css/acorn_base/responsive.css">
         <link rel="stylesheet" href="public/assets/css/acorn_base/media-queries.css" media="screen">
-        
 
-         <link rel="stylesheet" href="public/assets/css/site/style.css"> 
+
+        <link rel="stylesheet" href="public/assets/css/site/style.css"> 
         <link rel="stylesheet" href="public/assets/css/site/nav.css"> 
         <link rel="stylesheet" href="public/assets/css/site/skeleton.css">
         <link rel="stylesheet" href="public/assets/css/site/color.css"> 
@@ -68,22 +68,22 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
         <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="resources/libs/jquery/jquery-1.7.1.min.js"><\/script>')</script>
-      
+
         <script src="vendor/libs/js/j.modernizer/modernizr.min.js"></script>
-        
-          <!-- This grabs the Jquery UI -->
-<!--        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
+
+        <!-- This grabs the Jquery UI -->
+        <!--        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
         <script src="vendor/libs/js/jqueryui/jqueryui.min.js"></script>
-     
-         <!-- this will load google maps -->
+
+        <!-- this will load google maps -->
         <script src="vendor/libs/js/googlemaps/googlemaps.js"></script>
 
     </head>
-     <body >
+    <body >
 
 
         <!--  START -- container wrapper - div -->
-        <div class="pg pg-index container">
+        <div class="container">
 
             <!-- START -- HEADER 
             http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions
@@ -92,7 +92,7 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
             <header class="row clearfix ladder_3" >
                 <section class="logo clearfix ladder_4 alpha" itemtype="http://schema.org/Organization" itemscope="">
                     <span class="logo_wrap">
-                        <img alt="droco roofing" title="droco roofing"  src="/Basic/public/assets/files/img/global/logo/logo.svg" itemprop="image" role="img">
+                        <img alt="droco roofing" title="droco roofing"  src="public/assets/files/img/global/logo/logo.svg" itemprop="image" role="img">
                     </span>
                 </section> 
                 <nav class="menu-main row clearfix ladder_2" >
@@ -111,32 +111,39 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
                         </li>
                     </ul>
                 </nav>
-                <section id="slider" class="row clearfix" role="region" >
-
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <img src="/Basic/public/assets/files/img/flexslider/kitchen_adventurer_cheesecake_brownie.jpg" />
-                            </li>
-                            <li>
-                                <img src="/Basic/public/assets/files/img/flexslider/kitchen_adventurer_lemon.jpg" />
-                            </li>
-                            <li>
-                                <img src="/Basic/public/assets/files/img/flexslider/kitchen_adventurer_donut.jpg" />
-                            </li>
-                            <li>
-                                <img src="/Basic/public/assets/files/img/flexslider/kitchen_adventurer_caramel.jpg" />
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="view-js" class="code">
-
-                    </div>
-
-                </section>
+                
 
             </header>
             <!-- END -- HEADER -->  
+            
+             <!-- Start \/ --  slider  --> 
+
+            <section id="slider" class="region">
+                <section class="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="public/assets/files/img/flexslider/kitchen_adventurer_cheesecake_brownie.jpg" />
+                            </li>
+                            <li>
+                                <img src="public/assets/files/img/flexslider/kitchen_adventurer_lemon.jpg" />
+                            </li>
+                            <li>
+                                <img src="public/assets/files/img/flexslider/kitchen_adventurer_donut.jpg" />
+                            </li>
+                            <li>
+                                <img src="public/assets/files/img/flexslider/kitchen_adventurer_caramel.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+
+            <!-- End ^ --  slider  -->  
+            
+            
+            
             <!-- START -- MAIN-CONTENT -->  
             <div class="main-content row clearfix ladder_3" role="main">
 
@@ -154,16 +161,16 @@ http://stackoverflow.com/questions/3337087/using-apache-software-and-the-apache-
                     <ul id="per_info" class="clear-fix" role="list">
                         <li>
                             <span  class="pi_details di_address">
-                                <b> My Company</b>
+                                <b> Company Name</b>
                             </span>
                         </li>
                         <li><span  class="pi_details di_address">
-                                999 West Market Street Suite 226 Akron, OH 44313
+                             Your Address
                             </span>
                         </li>
                         <li>
                             <span  class="pi_details di_phone">
-                                (330) 576-3456
+                               Your Phone Number
                             </span>
                         </li>
                     </ul>
