@@ -28,4 +28,3 @@ function loadScript() {
 
 window.onload = loadScript;
 
-
